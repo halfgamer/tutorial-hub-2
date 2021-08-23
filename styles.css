@@ -1,0 +1,53 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+  display:flex;
+  justify-content:center ;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  justify-content:start;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: center;
+  font-size: 10px;
+  
+ 
+}
+
+.grid img {
+  border: 2px solid rgb(3, 3, 3);
+  border-radius: 50px;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.languages {
+display: flex;
+align-content : flex-start;
+flex-wrap: wrap;
+justify-content: space-between;
+/*border: 2px solid rgb(4, 245, 245);--->
+border-radius: 100px;*/
+flex-direction: column;
+background-color:whitesmoke
+}
+
+
